@@ -20,12 +20,12 @@
             "application/json": {
               "schema": {
                 "type": "object",
-                "required": ["model", "promot"],
+                "required": ["model", "input"],
                 "properties": {
                   "model": {
                     "type": "string"
                   },
-                  "prompt": {
+                  "input": {
                     "type": "string"
                   }
                 }
